@@ -7,7 +7,7 @@ function theBeatlesPlay(musicians, instruments) {
     for (let i = 0; i < musicians.length; i++) {
     array.push(`${musicians[i]} plays ${instruments[i]}`)
   }
-  //can't i => 0
+  //can't i >= 0
 
   return array
 }
